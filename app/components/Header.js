@@ -38,15 +38,7 @@ export default function Header() {
                 { name: 'Ongoing', href: '/supervisedStudents/ongoing' },
             ]
         },
-        {
-            name: 'Publications',
-            href: '#',
-            type: 'dropdown',
-            items: [
-                { name: 'Patents', href: '/publications/patents' },
-                { name: 'Book Chapters', href: '/publications/book-chapters' },
-            ]
-        },
+        { name: 'Publications', href: '/publications' },
         {
             name: 'Teaching',
             href: '#',
@@ -69,7 +61,7 @@ export default function Header() {
             <div className="max-w-7xl mx-auto px-4 md:px-6 flex items-center justify-between">
                 {/* Logo / Brand */}
                 <Link href="/" className="text-2xl md:text-3xl font-bold text-gray-900 tracking-tight hover:text-green-600 transition-colors">
-                    Prof. Sib Sankar
+                    Dr. Lakshmi Vellanki
                 </Link>
 
                 {/* Desktop Navigation */}

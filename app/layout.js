@@ -7,8 +7,8 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Prof. Sib Sankar",
-  description: "Chemistry Department Professor",
+  title: "Dr. Lakshmi Vellanki",
+  description: "Assistant Professor, Chemistry Department, NITK Surathkal",
 };
 
 export default function RootLayout({ children }) {
