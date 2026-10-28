@@ -39,15 +39,6 @@ export default function Header() {
             ]
         },
         { name: 'Publications', href: '/publications' },
-        {
-            name: 'Teaching',
-            href: '#',
-            type: 'dropdown',
-            items: [
-                { name: 'B.Tech', href: '/teaching/btech' },
-                { name: 'M.Sc', href: '/teaching/msc' },
-            ]
-        },
         { name: 'Gallery', href: '/gallery' },
     ];
 

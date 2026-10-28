@@ -3,6 +3,12 @@ import Link from 'next/link';
 import PublicationCard from '@/app/components/PublicationCard';
 import { publications } from '@/app/data/publications';
 
+const courses = [
+    "CY111", "CY110", "CY305",
+    "CY 755", "CY 701", "CY 705", "CY 804",
+    "CY 861", "CY 866", "CY 863", "CY 874",
+];
+
 const Hero = () => {
     return (
         <section className="bg-white py-12 md:py-16">
@@ -184,6 +190,24 @@ const Hero = () => {
                                 >
                                     View all publications →
                                 </Link>
+                            </section>
+
+                            {/* Courses Section */}
+                            <section>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                                    <span className="w-2 h-8 bg-green-500 rounded-full mr-3"></span>
+                                    Courses
+                                </h3>
+                                <div className="flex flex-wrap gap-3">
+                                    {courses.map((code) => (
+                                        <span
+                                            key={code}
+                                            className="bg-green-50 text-green-700 text-base font-bold px-4 py-2 rounded-full whitespace-nowrap border border-green-100/50"
+                                        >
+                                            {code}
+                                        </span>
+                                    ))}
+                                </div>
                             </section>
                         </div>
                     </div>
