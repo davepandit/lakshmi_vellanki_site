@@ -1,4 +1,7 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import PublicationCard from '@/app/components/PublicationCard';
+import { publications } from '@/app/data/publications';
 
 const Hero = () => {
     return (
@@ -162,6 +165,25 @@ const Hero = () => {
                                         </div>
                                     </div>
                                 </div>
+                            </section>
+
+                            {/* Top Publications Section */}
+                            <section>
+                                <h3 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                                    <span className="w-2 h-8 bg-green-500 rounded-full mr-3"></span>
+                                    Top Publications
+                                </h3>
+                                <div className="space-y-16">
+                                    {publications.slice(0, 5).map((pub) => (
+                                        <PublicationCard key={pub.id} pub={pub} />
+                                    ))}
+                                </div>
+                                <Link
+                                    href="/publications"
+                                    className="inline-block mt-10 text-green-700 font-semibold hover:underline"
+                                >
+                                    View all publications →
+                                </Link>
                             </section>
                         </div>
                     </div>
