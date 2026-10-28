@@ -118,8 +118,9 @@ const Hero = () => {
                                         <div className="mb-1">
                                             <span className="text-sm font-bold text-green-700 bg-green-50 px-2 py-1 rounded inline-block mb-1">Since 11/2019</span>
                                         </div>
-                                        <h4 className="text-lg font-bold text-gray-900">Assistant Professor</h4>
-                                        <p className="text-gray-700">National Institute of Technology (NIT-K) Karnataka, Surathkal, India.</p>
+                                        <h4 className="text-lg font-bold text-gray-900">
+                                            Assistant Professor <span className="font-normal text-gray-600">(NITK Surathkal, India)</span>
+                                        </h4>
                                     </div>
 
                                     <div className="relative">
@@ -127,11 +128,9 @@ const Hero = () => {
                                         <div className="mb-1">
                                             <span className="text-sm font-bold text-gray-500 bg-gray-50 px-2 py-1 rounded inline-block mb-1">Apr 2018 - Sep 2019</span>
                                         </div>
-                                        <h4 className="text-lg font-bold text-gray-900">Post-doctoral Fellow</h4>
-                                        <div className="text-gray-700 mt-1 space-y-1">
-                                            <p>McGill University, Canada</p>
-                                            <p><span className="font-semibold text-gray-900">Research Group:</span> Prof. Dmitrii Perepichka</p>
-                                        </div>
+                                        <h4 className="text-lg font-bold text-gray-900">
+                                            Post-doctoral Fellow <span className="font-normal text-gray-600">(McGill University, Canada)</span>
+                                        </h4>
                                     </div>
 
                                     <div className="relative">
@@ -139,11 +138,9 @@ const Hero = () => {
                                         <div className="mb-1">
                                             <span className="text-sm font-bold text-gray-500 bg-gray-50 px-2 py-1 rounded inline-block mb-1">Oct 2014 - Mar 2017</span>
                                         </div>
-                                        <h4 className="text-lg font-bold text-gray-900">Post-doctoral Fellow (JSPS)</h4>
-                                        <div className="text-gray-700 mt-1 space-y-1">
-                                            <p>Ritsumeikan University, Japan</p>
-                                            <p><span className="font-semibold text-gray-900">Research Group:</span> Prof. Hiromitsu Maeda</p>
-                                        </div>
+                                        <h4 className="text-lg font-bold text-gray-900">
+                                            Post-doctoral Fellow (JSPS) <span className="font-normal text-gray-600">(Ritsumeikan University, Japan)</span>
+                                        </h4>
                                     </div>
                                 </div>
                             </section>
@@ -156,31 +153,13 @@ const Hero = () => {
                                 </h3>
                                 <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
                                     {/* Ph.D */}
-                                    <div className="p-5 md:p-6 border-b border-gray-100 hover:bg-gray-50/50 transition-colors">
-                                        <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 mb-2">
-                                            <h4 className="text-lg font-bold text-gray-900">Doctor of Philosophy (Ph.D.)</h4>
+                                    <div className="p-5 md:p-6 hover:bg-gray-50/50 transition-colors">
+                                        <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2">
+                                            <h4 className="text-lg font-bold text-gray-900">
+                                                Doctor of Philosophy (Ph.D.) <span className="font-normal text-gray-600">(Indian Institute of Technology (IIT) Bombay, India)</span>
+                                            </h4>
                                             <span className="text-sm font-medium text-gray-500 whitespace-nowrap">2014</span>
                                         </div>
-                                        <p className="text-green-700 font-medium mb-1">Indian Institute of Technology (IIT) Bombay, India</p>
-                                        <p className="text-gray-600 text-sm"><span className="font-semibold text-gray-800">Supervisor:</span> Prof. M. Ravikanth</p>
-                                    </div>
-
-                                    {/* M.Sc */}
-                                    <div className="p-5 md:p-6 border-b border-gray-100 hover:bg-gray-50/50 transition-colors">
-                                        <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 mb-2">
-                                            <h4 className="text-lg font-bold text-gray-900">Master of Science (M.Sc.)</h4>
-                                            <span className="text-sm font-medium text-gray-500 whitespace-nowrap">2008</span>
-                                        </div>
-                                        <p className="text-green-700 font-medium mb-3">Andhra University, India</p>
-                                    </div>
-
-                                    {/* B.Sc */}
-                                    <div className="p-5 md:p-6 hover:bg-gray-50/50 transition-colors">
-                                        <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 mb-2">
-                                            <h4 className="text-lg font-bold text-gray-900">Bachelor of Science (B.Sc.)</h4>
-                                            <span className="text-sm font-medium text-gray-500 whitespace-nowrap">2006</span>
-                                        </div>
-                                        <p className="text-green-700 font-medium">Andhra University, India</p>
                                     </div>
                                 </div>
                             </section>
